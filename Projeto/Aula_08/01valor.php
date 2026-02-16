@@ -8,10 +8,12 @@
   <body>
     <div>
       <?php
-          $valor = $_POST["v"];
-          echo "O valor enviado foi $valor";
+        $valor = $_GET["v"];
+        $rq = sqrt($valor);
+        echo "A raiz de $valor é igual a " . number_format($rq,2);
       ?>
+      <a href="exer01.html">Voltar</a>
     </div>
   </body>
 </html>
- 
+  
