@@ -21,7 +21,7 @@
         }
         echo "Com essa idade você $v é também $d!<br>";
       ?>
-      <a href="exer01.html">Voltar </a>
+      <a href="exer01.html" class="botao">Voltar </a>
     </div>
   </body>
 </html>
